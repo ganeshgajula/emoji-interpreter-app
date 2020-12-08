@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1527692255-d95cd7e01db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80")
+    no-repeat center center/cover;
+  height: 100%;
+  color: #ffff00;
+  font-weight: bolder;
+  padding-top: 5rem;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.emojiContent {
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+/* .emojiStore {
+  margin-top: 1rem;
+} */
+
+.msgText {
+  /* background-color: black; */
+  font-size: 1.5rem;
+  color: black;
+  display: inline;
+  width: 70vw;
+  margin-bottom: 1rem;
+}
